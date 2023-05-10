@@ -6,8 +6,10 @@ import WBTC from './WBTC.png'
 import WETH from './WETH.png'
 import Search from './search.png'
 import Toggle from './Toggle.png'
+import logo from './logo.png'
 
 export default {
+    logo,
     ETH,
     DAI,
     USDC,
