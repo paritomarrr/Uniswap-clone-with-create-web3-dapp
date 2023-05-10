@@ -1,12 +1,9 @@
-import styles from "../styles/Home.module.css";
-import InstructionsComponent from "../components/InstructionsComponent";
+import React from 'react'
 
-export default function Home() {
+const Home = () => {
   return (
-    <div>
-      <main className={styles.main}>
-        <InstructionsComponent></InstructionsComponent>
-      </main>
-    </div>
-  );
+    <div>Home</div>
+  )
 }
+
+export default Home
