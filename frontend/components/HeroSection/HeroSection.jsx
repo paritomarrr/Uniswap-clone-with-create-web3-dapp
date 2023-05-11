@@ -43,7 +43,15 @@ const HeroSection = ({accounts, tokenData}) => {
             {tokenTwo.name || "ETH"}
             <small>9474</small>
           </button>
+          {accounts ? (
+            <button className={Styles.HeroSection_Box_Btn}>Connect Wallet</button>) : (
+            <button className={Styles.HeroSection_Box_Btn} onClick={() => {}}>Swap</button>
+          )}
         </div>
+        {openSettings && <Token openSettings={openSettings} />}
+        {openToken && <SearchToken openToken={openToken} tokens={setTokenOne} tokenData={tokenData} />}
+
+        {openToken && <SearchToken openToken={openToken} tokens={setTokenOne} tokenData={tokenData} />}
       </div>
 
     </div>
