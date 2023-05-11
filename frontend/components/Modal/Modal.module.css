@@ -1,0 +1,49 @@
+.Modal {
+    position: absolute;
+    inset: 0% 0% 0% 0%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1000;
+
+}
+
+.Modal_Box {
+    background-color: rgba(13,17,28,255);
+    padding: 2rem;
+    border-radius: .5rem;
+}
+
+.Modal_Box_Heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Modal_Box_Heading p{
+    font-size: 1.2rem;
+}
+
+.Modal_Box_Wallet p{
+    background-color: rgba(19,26,42,255);
+    padding: 1rem;
+    border-radius: .5rem;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 0.5rem;
+}
+
+.Modal_Box_Para {
+    padding: 1rem;
+    line-height: 1.2;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: .5rem;
+    margin: .5rem;
+}
+
+.Modal_Box_Heading_Img {
+    cursor: pointer;
+}

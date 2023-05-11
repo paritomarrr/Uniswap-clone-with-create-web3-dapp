@@ -7,6 +7,7 @@ import WETH from './WETH.png'
 import Search from './search.png'
 import Toggle from './Toggle.png'
 import logo from './logo.png'
+import Close from './Close.png'
 
 export default {
     logo,
@@ -17,5 +18,6 @@ export default {
     WBTC,
     WETH,
     Search,
-    Toggle
+    Toggle,
+    Close
 }

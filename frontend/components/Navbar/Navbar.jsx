@@ -59,13 +59,13 @@ const Navbar = () => {
               </div>
               <p>Network Name</p>
             </div>
-            <button onClick={() => { }}>Address</button>
+            <button onClick={() => { setOpenModal(true)}}>Address</button>
             {openModal && <Modal setOpenModal={setOpenModal} connectWallet="Connect" />}
           </div>
         </div>
 
         {/* tokenlist component  */}
-        {openTokenBox && (<TokenList tokenData="hey" TokenList setOpenTokenBox={setOpenTokenBox} />)}
+        {openTokenBox && (<TokenList tokenData="hey" setOpenTokenBox={setOpenTokenBox} />)}
       </div>
     )
   )

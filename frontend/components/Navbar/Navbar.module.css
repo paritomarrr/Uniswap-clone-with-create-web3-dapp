@@ -96,7 +96,7 @@
 
 }
 
-@media only screen and (max-width: 35rem) {
+@media only screen and (max-width: 54rem) {
     .navbar {
         width: 90%;
     }
@@ -107,6 +107,9 @@
         display: none;
     }
     .Navbar_Box_Left_Menu {
+        display: none;
+    }
+    .Navbar_Box_Right_Box {
         display: none;
     }
     
