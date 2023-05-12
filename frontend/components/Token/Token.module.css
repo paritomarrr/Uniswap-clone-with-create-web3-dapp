@@ -1,0 +1,79 @@
+.Token {
+    position: absolute;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #0d111c;
+    border-radius: .5rem;
+    width: 40rem;
+    height: 26rem;
+    margin-top: -21rem;
+    margin-left: -1rem;
+}
+
+.Token_Box_Heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
+.Token_Box h2 {
+    font-size: 1.2rem;
+    line-height: 2;
+}
+
+.Token_Box_Para {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.Token_Box_Input {
+    display: flex;
+    gap: 4rem;
+    margin: 1rem 0;
+    align-items: center;
+}
+
+.Token_Box_Input button {
+    border: 0;
+    outline: 0;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    background-color: #1c2c51;
+    color: #4c82fb;
+    font-size: 900;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.Token_Box_Input input {
+    background-color: #131a2a;
+    border: 0;
+    outline: 0;
+    width: 80%;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    text-align: end;
+    cursor: pointer;
+    font-size: 1.4rem;
+}
+
+.Token_Box_Toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 54em) {
+    .Token {
+        width: 95%;
+        margin-left: -1rem;
+    }
+ 
+    
+  
+}

@@ -8,6 +8,7 @@ import Search from './search.png'
 import Toggle from './Toggle.png'
 import logo from './logo.png'
 import Close from './Close.png'
+import Lock from './Lock.png'
 
 export default {
     logo,
@@ -19,5 +20,6 @@ export default {
     WETH,
     Search,
     Toggle,
-    Close
+    Close,
+    Lock
 }

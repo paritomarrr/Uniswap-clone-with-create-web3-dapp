@@ -1,0 +1,82 @@
+.Toggle {
+    text-align: center;
+}
+
+.Toggle_Switch_Box {
+    position: relative;
+    width: 75px;
+    top: 8px;
+    display: inline-block;
+    text-align: left;
+
+}
+
+.Toggle_CheckBox {
+    display: none;
+
+}
+
+.Toggle_Label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 0px solid #bbb;
+    border-radius: 20px;
+}
+
+.Toggle_Inner {
+    display: block;
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+
+.Toggle_Inner:before,
+.Toggle_Inner:after {
+   float: left;
+   width: 50%;
+   height: 36px;
+   padding: 0;
+   line-height: 36px;
+   color: #fff;
+   font-weight: bold;
+   box-sizing: border-box;
+}
+
+.Toggle_Inner:before {
+    content: "Yes";
+    padding-left: 10px;
+    background-color: #1c2c51;
+    color: #fff;
+}
+
+.Toggle_Inner:after {
+    content: "No";
+    padding-right: 10px;
+    background-color: #1c2c51;
+    color: #fff;
+    text-align: right;
+}
+
+.Toggle_Switch {
+    display: block;
+    width: 24px;
+    margin: 5px;
+    background-color: #4c82fb;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 40px;
+    border: 0 solid #ffffff;
+    border-radius: 20px;
+    transition: all 0.3s ease-in 0s;
+
+}
+
+.Toggle_CheckBox:checked + .Toggle_Label .Toggle_Inner {
+    margin-left: 0;
+}   
+
+.Toggle_CheckBox:checked + .Toggle_Label .Toggle_Switch {
+    right: 0;
+}

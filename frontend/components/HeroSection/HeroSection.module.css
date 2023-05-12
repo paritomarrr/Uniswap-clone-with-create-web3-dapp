@@ -1,0 +1,89 @@
+.HeroSection {
+    width: 90%;
+    margin: 2rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.HeroSection_Box {
+    margin-top: 5rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    width: 40rem;
+    background-color: rgba(13,17,28,255);
+    height: 24rem;
+
+}
+
+.HeroSection_Box_Heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+
+}
+
+.HeroSection_Box_Input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(19,26,42,255);
+    background-color:rgba(19,26,42,255);
+    border-radius: 1rem;
+    padding-left: 2rem;
+    margin-top: 1rem;
+    height: 5rem;
+}
+
+.HeroSection_Box_Input input {
+    border: 0;
+    outline: 0;
+    background-color:rgba(19,26,42,255);
+    font-size: 2rem;
+}
+
+.HeroSection_Box_Input button {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 0.5rem;
+   line-height: 0;
+   padding: .5rem;
+   background-color: rgba(41,50,73,255);
+   font-weight: 700;
+   font-size: 1.2rem;
+   border-radius: 2rem;
+  outline: none;
+  border: 0;
+   color: #fff;
+   margin: 1rem;
+}
+
+.HeroSection_Box_Btn {
+    background-color: #1c2c51;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    color: #4c82fb;
+}
+
+@media only screen and (max-width: 54em) {
+    .HeroSection {
+        width: 95%;
+    }
+    .HeroSection_Box {
+        width: 95%;
+    }
+    .HeroSection_Box_Input input {
+        width: 50%;
+    }
+}
