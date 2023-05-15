@@ -4,14 +4,18 @@
     background-color: #0d111c;
     padding: 2rem;
     border-radius: .5rem;
-    width: 30rem;
+    width: 40rem;
     height: 25rem;
+    margin-top: -22rem;
+    margin-left: -1rem;
 }
 
 .SearchToken_Box_Heading {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-size: 1.4rem;
+    margin: 1rem;
 
 }
 
