@@ -12,7 +12,12 @@ module.exports = {
 	},
 	allowUnlimitedContractSize: true,
 	networks: {
-		hardhat: {},
+		hardhat: {
+			forking: {
+				url: `https://eth-mainnet.alchemyapi.io/v2/${process.env.ALCHEMY_API_KEY}`,
+				
+			}
+		},
 		// MATIC_MAINNET: {
 		// 	accounts: [`${process.env.PRIVATE_KEY}`],
 		// 	url: `https://polygon-mainnet.g.alchemy.com/v2/${process.env.ALCHEMY_API_KEY}`
